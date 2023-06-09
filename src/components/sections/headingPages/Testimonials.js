@@ -1,4 +1,4 @@
-import Carousel from './TestimonialCarousel'
+
 import TestimonialCard from './CardInfo/TestimonialCard';
 export default function Testimonials() {
     return (
@@ -9,26 +9,18 @@ export default function Testimonials() {
 
 
             <section className="testimonials-cards">
-                <TestimonialCard name="Micheal Caldwell" description="This is the best Mediterranean food that I've ever had!"/>
-                <TestimonialCard name="Alan Chen" description="My Shiba Inu, Mugi, really loved the cozy vibes and 
-                delicious food here."/>
-                <TestimonialCard name="Casey Lau" description="I've had some great Mediterranean food before, but none of them beats
-             Little Lemon in flavor and texture."/>
-                <TestimonialCard name="John Rosenblum" description="Great food, welcoming staff, cozy atmosphere. A great place to 
-                treat your kids to."/>
-                <TestimonialCard name="Jim Reynor" description="The food here really refreshed me after a late night shift
-                at the local supply depot."/>
-                <TestimonialCard name="Brian Dean" description="I came to Little Lemon after a 5 hour flight from the East Coast.
-                 The food here tasted so delicious after the trip here."/>
-                <TestimonialCard name="Tyler Tohmine" description="The food here was fire!! Everyone should try this place
+            <TestimonialCard name="Aman Mishra" description="Best Food and Ambience!"/>
+            <TestimonialCard name="Sarah Thompson" description="Meditarrian food at its finest! Every bite is a burst of fresh ingredients and vibrant tastes."/>
+            <TestimonialCard name="Bruce Wayne" description="I never knew healthy food could taste this incredible! The Meditarrian cuisine has won me over."/>
+            <TestimonialCard name="Peter Parker" description="Exquisite Mediterranean dishes that satisfy both my taste buds and my craving for wholesome meals."/>
+            <TestimonialCard name="Natasha Romanoff" description="From the first bite, I fell in love with the rich flavors and aromatic herbs of Meditarrian cuisine."/>
+            <TestimonialCard name="Tony Stark" description="Meditarrian food is a true culinary delight, combining simplicity and sophistication in each dish."/>
+            <TestimonialCard name="Diana Prince" description="The food here was amazing!! Everyone should try this place
                  out at least once if they live in Chicago."/>
-                <TestimonialCard name="Jack Hu" description="This restaurant served as a perfect dinner for me after a 
-                long night of studying. I would definitely order from here again!"/>
+            <TestimonialCard name="Clark Kent" description="Just Perfect!"/>
             </section>
 
-            <section className="testimonials-carousel">
-                <Carousel />
-            </section>
+            
         </section>
     );
 }
